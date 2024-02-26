@@ -30,9 +30,9 @@
               Profile
             </a>
             <ul class="dropdown-menu layanan" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/tentang">Tentang</a></li>
-              <li><a class="dropdown-item" href="#">Visi Misi</a></li>
-              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="/tentang">Tentang PTSP</a></li>
+              <li><a class="dropdown-item" href="/visi">Visi Misi</a></li>
+              {{-- <li><hr class="dropdown-divider"></li> --}}
               {{-- <li><a class="dropdown-item" href="#">Something else here</a></li> --}}
             </ul>
           </li>
@@ -41,9 +41,9 @@
               Layanan
             </a>
             <ul class="dropdown-menu layanan" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Standr Pelayanan</a></li>
-              <li><a class="dropdown-item" href="/visi">Visi Misi</a></li>
-              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="/standar">Standar Pelayanan</a></li>
+              <li><a class="dropdown-item" href="/tentangperizinan">Tentang Perizinan</a></li>
+              {{-- <li><hr class="dropdown-divider"></li> --}}
               {{-- <li><a class="dropdown-item" href="#">Something else here</a></li> --}}
             </ul>
           </li>

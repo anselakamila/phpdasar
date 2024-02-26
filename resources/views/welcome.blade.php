@@ -95,21 +95,21 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/background1.png" class="d-block w-100" alt="...">
+            <img src="img/bg3.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h1 class="display-4 text-uppercase fw-bold">PTSP Pasar Rebo Jakarta Timur</h1>
               <h3 class="lead">Website Konsultasi dan Informasi pelayanan perizinan dan non perizinan  pada UP PTSP kecamatan Pasar Rebo yang memberikan Informasi dan melayani Konsultasi secara online</h3>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="img/background1.png" class="d-block w-100" alt="...">
+            <img src="img/bg2.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h1 class="display-4 text-uppercase fw-bold">PTSP Pasar Rebo Jakarta Timur</h1>
               <h3 class="lead">Website Konsultasi dan Informasi pelayanan perizinan dan non perizinan  pada UP PTSP kecamatan Pasar Rebo yang memberikan Informasi dan melayani Konsultasi secara online</h3>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="img/background1.png" class="d-block w-100" alt="...">
+            <img src="img/bg1.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h1 class="display-4 text-uppercase fw-bold">PTSP Pasar Rebo Jakarta Timur</h1>
               <h3 class="lead">Website Konsultasi dan Informasi pelayanan perizinan dan non perizinan  pada UP PTSP kecamatan Pasar Rebo yang memberikan Informasi dan melayani Konsultasi secara online</h3>
@@ -141,16 +141,22 @@
       </section>
       
        <section id="tentang" class="py-5">
-            <div class="container my-4">
-              <div class="row gx-lg-5">
-                <div class="col-lg-5 mb-5">
+            <div class="container my-4 ">
+              <div class="row gx-lg-5 justify-content-center">
+                <div class="col-lg-5 mb-4 me-5 ">
                   <img src="img/about.png"  class="img-fluid">
                 </div>
     
-                <div class="col-lg-6">
+                <div class="col-lg-5 ms-5">
                   <h1>Atur jadwal Konsultasi secara Online</h1>
                     <p class="text-muted fw-light lh-lg my-4 decs-tnt">Anda dapat menyesuaikan waktu maupun jenis platform yang anda inginkan untuk mengatur jadwal konsultasi secara online</p>
-                    <button class="btn btn-primary " href="/jadwal.blade.php" type="submit">Atur jadwal konsultasi online</button>
+                    {{-- <button class="btn btn-primary" href="/form" type="submit">Atur jadwal konsultasi online</button> --}}
+
+                    {{-- <button type="submit"  class="btn btn-primary btn-block mb-4"> 
+                      Sign up 
+                    </button> --}}
+
+                    <a class="btn btn-primary" href="/form" role="button">Atur jadwal konsultasi online</a>
       
       
                   </div>
@@ -230,7 +236,7 @@
                                 data-bs-parent="#FAQ">
                                 <div class="accordion-body">
                                     <p>
-                                      Anda dapat mengakses link berikut (https://oss.go.id/panduan)
+                                      Anda dapat mengakses link berikut <a href="https://oss.go.id/panduan" target="_blank">(https://oss.go.id/panduan)</a>
                                     </p>
                                 </div>
                             </div>
@@ -247,7 +253,9 @@
                                 data-bs-parent="#FAQ">
                                 <div class="accordion-body">
                                     <p>
-                                      Jika anda menggunakan OSS silahkan menuju link berikut (https://oss.go.id/video) dan jika anda menggunakan Jakevo silahkan menuju link berikut (https://www.youtube.com/watch?v=pRqPdHg4L0Q)
+                                      Jika anda menggunakan OSS silahkan menuju link berikut <a href="https://oss.go.id/video" target="_blank" >(https://oss.go.id/video) </a>
+                                      <br>
+                                       dan jika anda menggunakan Jakevo silahkan menuju link berikut <a href="https://www.youtube.com/watch?v=pRqPdHg4L0Q" target="_blank" >(https://www.youtube.com/watch?v=pRqPdHg4L0Q)</a>
                                 </div>
                             </div>
                         </div>
@@ -263,7 +271,7 @@
                                 data-bs-parent="#FAQ">
                                 <div class="accordion-body">
                                     <p>
-                                      Anda dapat mengunjungi link berikut https://oss.go.id/informasi/faq
+                                      Anda dapat mengunjungi link berikut <a href="https://oss.go.id/informasi/faq" target="_blank"  >(https://oss.go.id/informasi/faq)</a>
                                     </p>
                                 </div>
                             </div>

@@ -41,3 +41,15 @@ Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::get('/standar', function () {
+    return view('standar');
+});
+Route::get('/tentangperizinan', function () {
+    return view('tentang-perizinan');
+});
+
+
